@@ -1,27 +1,26 @@
 * {
     margin: 0;
-	padding: 0;
+    padding: 0;
 }
 
-html, body {
+html,
+body {
     height: 100%;
 
 }
 
-body 
-{
-   font-family: Arial, Helvetica, sans-serif;
-    background-image: url("img/pattern_stained_background.jpg") ;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("img/pattern_stained_background.jpg");
     background-color: rgb(56, 48, 48);
     background-size: cover;
-    
+
 
 
 
 }
 
-header
-{
+header {
     background-color: #000000d8;
     padding: 2%;
     margin: auto;
@@ -35,21 +34,13 @@ header
 
 main {
     display: block;
-    /* padding-top: 3em;
-    padding-bottom: 4em; */
     height: 70%;
     width: 50%;
     margin: 3%;
-    float: left;
-    color: aliceblue;}
-
-aside {
-
-    float: left;
-
+    color: aliceblue;
 }
-footer
-{
+
+footer {
     background-color: #000000d8;
     position: absolute;
     bottom: 0;
@@ -61,26 +52,34 @@ footer
     color: aliceblue;
 }
 
+
+.navbar {
+    width: 100%;
+
+
+}
+
 ul {
-    list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 200px;
-    background-color: #000000d8;
-    
-  }
+}
 
+li {
+    float: left;
+}
 
-  li a 
-  {
+li a {
     display: block;
     color: #ffffff;
-    padding: 8px 16px;
+    padding: 18px 24px;
     text-decoration: none;
-  }
+    background-color: #272724b2;
 
-  li a:hover 
-  {
+
+}
+
+
+li a:hover {
     background-color: #3f3f39b2;
     color: white;
-  }
+}
