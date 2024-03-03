@@ -64,20 +64,23 @@ ul {
     list-style: none;
     margin: 0 auto;
     padding: 0;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 li {
-    float: left;
+    flex: 1 1 auto;
+    display: flex;
 }
 
 li a {
-    display: block;
     color: #ffffff;
     padding: 18px 24px;
     text-decoration: none;
     background-color: #272724b2;
     border: 1px solid rgba(0, 0, 0, 0.377);
-
+    flex: 1 0 auto;
+    text-align: center;
 
 
 }
