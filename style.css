@@ -14,20 +14,19 @@ body {
     background-image: url("img/pattern_stained_background.jpg");
     background-color: rgb(56, 48, 48);
     background-size: cover;
-
-
-
+    backdrop-filter: blur(2px);
+    backdrop-filter: brightness(60%);
 
 }
 
 header {
     background-color: #000000d8;
     padding: 2%;
-    margin: auto;
     text-align: center;
     border: 1px solid black;
     color: aliceblue;
     font-size: 2.5em;
+
 
 }
 
@@ -46,7 +45,7 @@ footer {
     text-align: center;
     padding: 1%;
     border: 1px solid black;
-    color: aliceblue;
+    color: rgb(160, 168, 175);
 }
 
 
@@ -77,6 +76,8 @@ li a {
     padding: 18px 24px;
     text-decoration: none;
     background-color: #272724b2;
+    border: 1px solid rgba(0, 0, 0, 0.377);
+
 
 
 }
