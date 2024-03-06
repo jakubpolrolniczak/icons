@@ -45,6 +45,7 @@ footer {
     color: rgb(160, 168, 175);
 }
 
+/* Navbar */
 
 #navbar {
     width: 100%;
@@ -84,4 +85,30 @@ li a {
 li a:hover {
     background-color: #3f3f39b2;
     color: white
+}
+
+
+/* Gallery */
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid black;
+    float: left;
+    width: 180px;
+    background-color: rgba(0, 0, 0, 0.329);
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.329);
 }
